@@ -45,13 +45,15 @@ export default {
   },
 
   mounted(){
-    this.stateData = this.$store.state.message
+    this.stateData = this.$store.getters.getMessage
   },
 
   methods:{
+    // mutation
     Update(){
         if(this.updateState != ""){
-            this.$store.commit('changeMessageValue', this.updateState)
+            // this.$store.commit('changeMessageValue', this.updateState)
+            this.$store.dispatch('changeMessageValue', this.updateState)
             this.stateData = this.updateState
             alert('state updated');
         }else{

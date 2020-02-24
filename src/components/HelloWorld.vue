@@ -29,7 +29,7 @@ export default {
   },
 
   mounted(){
-    this.stateData = this.$store.state.message
+    this.stateData = this.$store.getters.getMessage
   }
 }
 </script>
