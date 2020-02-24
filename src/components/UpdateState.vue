@@ -49,15 +49,15 @@ export default {
   },
 
   methods:{
-        Update(){
-            if(this.updateState != ""){
-                this.$store.commit('changeMessageValue', this.updateState)
-                this.stateData = this.updateState
-                alert('state updated');
-            }else{
-                alert('Emtyp form field')
-            }
+    Update(){
+        if(this.updateState != ""){
+            this.$store.commit('changeMessageValue', this.updateState)
+            this.stateData = this.updateState
+            alert('state updated');
+        }else{
+            alert('Emtyp form field')
         }
+    }
   }
 }
 </script>
