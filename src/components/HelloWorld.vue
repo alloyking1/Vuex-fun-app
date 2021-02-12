@@ -5,12 +5,22 @@
         <div class="col-md-12">
           <div class="card">
             <div class="card-body">
-              <h1>Hello</h1>
+              <h1>Hello!!!!</h1>
               <P>{{stateData}}</P>
 
                 <router-link to="/update" class="btn btn-outline-secondary">
                 Next
               </router-link>
+
+              <!-- Our New Components -->
+              <RandomColor />
+              <RandomColor />
+              <NewComponent />
+              <RandomCat />
+              <RandomCat />
+              <RandomCat />
+
+
             </div>
             
           </div>
@@ -21,6 +31,10 @@
 </template>
 
 <script>
+import RandomColor from './RandomColor.vue'
+import NewComponent from './NewComponent.vue'
+import RandomCat from './RandomCat.vue'
+
 export default {
   data(){
     return{
@@ -30,6 +44,12 @@ export default {
 
   mounted(){
     this.stateData = this.$store.getters.getMessage
+  },
+
+  components: {
+    RandomColor,
+    NewComponent,
+    RandomCat
   }
 }
 </script>
