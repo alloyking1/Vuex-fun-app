@@ -16,6 +16,16 @@
               <RandomColor />
               <RandomColor />
               <NewComponent />
+              <Counter />
+              <Counter />
+              <Counter />
+              <Counter />
+              <Hidden />
+              <Counter />
+              <HappySad />
+              <StarWars character="5" />
+              <StarWars character="6" />
+              <StarWars character="1" />
               <RandomCat />
               <RandomCat />
               <RandomCat />
@@ -34,6 +44,10 @@
 import RandomColor from './RandomColor.vue'
 import NewComponent from './NewComponent.vue'
 import RandomCat from './RandomCat.vue'
+import StarWars from './StarWars.vue'
+import HappySad from './HappySad.vue'
+import Counter from './Counter.vue'
+import Hidden from './Hidden.vue'
 
 export default {
   data(){
@@ -49,7 +63,11 @@ export default {
   components: {
     RandomColor,
     NewComponent,
-    RandomCat
+    RandomCat,
+    StarWars,
+    HappySad,
+    Counter,
+    Hidden
   }
 }
 </script>
