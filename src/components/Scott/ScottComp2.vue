@@ -1,5 +1,5 @@
 <template>
-    
+    <h1>Scotts Comp 2</h1>
 </template>
 
 <script>
