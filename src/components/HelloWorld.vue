@@ -5,7 +5,7 @@
         <div class="col-md-12">
           <div class="card">
             <div class="card-body">
-              <h1>Hello!!!! Changed!</h1>
+              <h1>Hello Tuesday!</h1>
               
               <!-- Our New Components -->
               <RandomColor />
@@ -18,9 +18,9 @@
               <Hidden />
               <Counter />
               <HappySad />
-              <StarWars character="5" />
-              <StarWars character="6" />
-              <StarWars character="1" />
+              <StarWars character="8" />
+              <StarWars character="9" />
+              <StarWars character="2" />
               <RandomCat />
               <RandomCat />
               <RandomCat />
