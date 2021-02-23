@@ -8,5 +8,6 @@
         <router-link to="/scott" class="btn btn-outline-secondary">Scott</router-link>
         <router-link to="/watson" class="btn btn-outline-secondary">Watson</router-link>
         <router-link to="/demo" class="btn btn-outline-secondary">Demo</router-link>
+        <a href="https://www.southhills.edu" class="btn btn-outline-secondary">SouthHills</a>
     </nav>
 </template>
